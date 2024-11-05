@@ -1,0 +1,182 @@
+{
+  "Name": "Hazard 1",
+  "Description": "Vanilla Hazard 1",
+  "ExtraLargeEnemyDamageResistance": [
+    0.2,
+    0.4,
+    0.6,
+    0.8
+  ],
+  "ExtraLargeEnemyDamageResistanceB": [
+    0.2,
+    0.4,
+    0.6,
+    0.8
+  ],
+  "ExtraLargeEnemyDamageResistanceC": [
+    0.2,
+    0.4,
+    0.6,
+    0.8
+  ],
+  "ExtraLargeEnemyDamageResistanceD": [
+    0.6,
+    0.75,
+    0.85,
+    1.1
+  ],
+  "EnemyDamageResistance": [
+    0.45,
+    0.55,
+    0.7,
+    0.85
+  ],
+  "SmallEnemyDamageResistance": [
+    0.7,
+    0.7,
+    0.7,
+    0.7
+  ],
+  "EnemyDamageModifier": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "EnemyCountModifier": [
+    0.15,
+    0.25,
+    0.45,
+    0.65
+  ],
+  "EncounterDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 50,
+        "max": 150
+      }
+    },
+    {
+      "weight": 6,
+      "range": {
+        "min": 250,
+        "max": 350
+      }
+    },
+    {
+      "weight": 1,
+      "range": {
+        "min": 400,
+        "max": 500
+      }
+    }
+  ],
+  "StationaryDifficulty": [
+    {
+      "weight": 15,
+      "range": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "weight": 1,
+      "range": {
+        "min": 150,
+        "max": 200
+      }
+    },
+    {
+      "weight": 1,
+      "range": {
+        "min": 250,
+        "max": 350
+      }
+    }
+  ],
+  "EnemyWaveInterval": [
+    {
+      "weight": 8.5,
+      "range": {
+        "min": 350,
+        "max": 500
+      }
+    }
+  ],
+  "EnemyNormalWaveInterval": [
+    {
+      "weight": 2,
+      "range": {
+        "min": 150,
+        "max": 250
+      }
+    },
+    {
+      "weight": 4,
+      "range": {
+        "min": 300,
+        "max": 450
+      }
+    }
+  ],
+  "EnemyNormalWaveDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 100,
+        "max": 200
+      }
+    }
+  ],
+  "EnemyDiversity": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 1,
+        "max": 2
+      }
+    },
+    {
+      "weight": 8,
+      "range": {
+        "min": 3,
+        "max": 4
+      }
+    }
+  ],
+  "StationaryEnemyDiversity": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 2,
+        "max": 2
+      }
+    }
+  ],
+  "VeteranNormal": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  ],
+  "VeteranLarge": [],
+  "DisruptiveEnemyPoolCount": {
+    "min": 0,
+    "max": 1
+  },
+  "MinPoolSize": 5,
+  "EnvironmentalDamageModifier": 0.7,
+  "PointExtractionScalar": 0.7,
+  "HazardBonus": 0.25,
+  "FriendlyFireModifier": 0.1,
+  "WaveStartDelayScale": 1,
+  "SpeedModifier": 0.8,
+  "AttackCooldownModifier": 0.8,
+  "ProjectileSpeedModifier": 1,
+  "HealthRegenerationMax": 0.15,
+  "ReviveHealthRatio": 0.6
+}
