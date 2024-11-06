@@ -1,0 +1,239 @@
+{
+    "Name": "Hazard 8×1.5",
+    "Description": "Imported from Koncin, hazard 8 was derived from the analysis of hazard1-7",
+    "MaxActiveSwarmers": 300,
+    "MaxActiveEnemies": 300,
+    "ResupplyCost": 50,
+    "ExtraLargeEnemyDamageResistance": [
+      1.6,
+      1.9,
+      2.3,
+      2.8
+    ],
+    "ExtraLargeEnemyDamageResistanceB": [
+      1.6,
+      1.9,
+      2.3,
+      2.8
+    ],
+    "ExtraLargeEnemyDamageResistanceC": [
+      1.6,
+      1.9,
+      2.3,
+      2.8
+    ],
+    "ExtraLargeEnemyDamageResistanceD": [
+      2.2,
+      2.2,
+      2.45,
+      2.7
+    ],
+    "EnemyDamageResistance": [
+      1.8,
+      2.1,
+      2.2,
+      2.25
+    ],
+    "EnemyDamageModifier": [
+      4.3,
+      4.55,
+      4.9,
+      5.1
+    ],
+    "SmallEnemyDamageResistance": [
+      1.2,
+      1.2,
+      1.2,
+      1.2
+    ],
+    "EnemyCountModifier": [
+      2.1,
+      2.25,
+      2.55,
+      3
+    ],
+    "EncounterDifficulty": [
+      {
+        "weight": 1,
+        "range": {
+          "min": 550,
+          "max": 750
+        }
+      },
+      {
+        "weight": 6,
+        "range": {
+          "min": 650,
+          "max": 850
+        }
+      },
+      {
+        "weight": 1,
+        "range": {
+          "min": 750,
+          "max": 950
+        }
+      }
+    ],
+    "StationaryDifficulty": [
+      {
+        "weight": 0,
+        "range": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "weight": 1,
+        "range": {
+          "min": 550,
+          "max": 750
+        }
+      },
+      {
+        "weight": 0,
+        "range": {
+          "min": 650,
+          "max": 850
+        }
+      }
+    ],
+    "EnemyWaveInterval": [
+      {
+        "weight": 0,
+        "range": {
+          "min": 160,
+          "max": 180
+        }
+      },
+      {
+        "weight": 7.5,
+        "range": {
+          "min": 115,
+          "max": 135
+        }
+      },
+      {
+        "weight": 0,
+        "range": {
+          "min": 299,
+          "max": 299
+        }
+      }
+    ],
+    "EnemyNormalWaveInterval": [
+      {
+        "weight": 4,
+        "range": {
+          "min": 150,
+          "max": 190
+        }
+      },
+      {
+        "weight": 2,
+        "range": {
+          "min": 180,
+          "max": 190
+        }
+      }
+    ],
+    "EnemyNormalWaveDifficulty": [
+      {
+        "weight": 1,
+        "range": {
+          "min": 850,
+          "max": 950
+        }
+      }
+    ],
+    "EnemyDiversity": [
+      {
+        "weight": 2,
+        "range": {
+          "min": 5,
+          "max": 6
+        }
+      },
+      {
+        "weight": 8,
+        "range": {
+          "min": 7,
+          "max": 8
+        }
+      },
+      {
+        "weight": 1,
+        "range": {
+          "min": 9,
+          "max": 10
+        }
+      }
+    ],
+    "StationaryEnemyDiversity": [
+      {
+        "weight": 1,
+        "range": {
+          "min": 4,
+          "max": 6
+        }
+      }
+    ],
+    "VeteranNormal": [
+      {
+        "weight": 2,
+        "range": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "weight": 9,
+        "range": {
+          "min": 0.8,
+          "max": 0.9
+        }
+      },
+      {
+        "weight": 2,
+        "range": {
+          "min": 0.7,
+          "max": 1
+        }
+      },
+      {
+        "weight": 0,
+        "range": {
+          "min": 1,
+          "max": 1
+        }
+      }
+    ],
+    "VeteranLarge": [
+      {
+        "weight": 1,
+        "range": {
+          "min": 0.25,
+          "max": 0.25
+        }
+      }
+    ],
+    "DisruptiveEnemyPoolCount": {
+      "min": 10,
+      "max": 10
+    },
+    "MinPoolSize": 20,
+    "EnvironmentalDamageModifier": 1.8,
+    "PointExtractionScalar": 1.1,
+    "FriendlyFireModifier": 1,
+    "SpeedModifier": 1.45,
+    "AttackCooldownModifier": 2.25,
+    "ProjectileSpeedModifier": 2.3,
+    "HealthRegenerationMax": 0.1,
+    "ReviveHealthRatio": 0.1,
+    "EscortMule": {
+      "FriendlyFireModifier": 0.1,
+      "BigHitDamageModifier": 0.85,
+      "BigHitDamageReductionThreshold": 0,
+      "NeutralDamageModifier": 0.1
+    }
+  }
