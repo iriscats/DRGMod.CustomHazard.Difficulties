@@ -1,0 +1,239 @@
+{
+    "Name": "Hazard 9",
+    "Description": "Based on Hazard 9 created by “双层堡腋毛便当”, with adjustments by Koncin.",
+    "MaxActiveSwarmers": 360,
+    "MaxActiveEnemies": 360,
+    "ResupplyCost": 40,
+    "ExtraLargeEnemyDamageResistance": [
+      1.6,
+      1.9,
+      2.3,
+      2.8
+    ],
+    "ExtraLargeEnemyDamageResistanceB": [
+      1.6,
+      1.9,
+      2.3,
+      2.8
+    ],
+    "ExtraLargeEnemyDamageResistanceC": [
+      1.6,
+      1.9,
+      2.3,
+      2.8
+    ],
+    "ExtraLargeEnemyDamageResistanceD": [
+      2.2,
+      2.2,
+      2.45,
+      2.7
+    ],
+    "EnemyDamageResistance": [
+      1.95,
+      2.25,
+      2.35,
+      2.4
+    ],
+    "EnemyDamageModifier": [
+      5.1,
+      5.3,
+      5.6,
+      5.8
+    ],
+    "SmallEnemyDamageResistance": [
+      1.2,
+      1.2,
+      1.2,
+      1.2
+    ],
+    "EnemyCountModifier": [
+      1.752,
+      1.852,
+      2.052,
+      2.352
+    ],
+    "EncounterDifficulty": [
+      {
+        "weight": 1,
+        "range": {
+          "min": 650,
+          "max": 850
+        }
+      },
+      {
+        "weight": 6,
+        "range": {
+          "min": 750,
+          "max": 950
+        }
+      },
+      {
+        "weight": 1,
+        "range": {
+          "min": 850,
+          "max": 1050
+        }
+      }
+    ],
+    "StationaryDifficulty": [
+      {
+        "weight": 0,
+        "range": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "weight": 1,
+        "range": {
+          "min": 650,
+          "max": 850
+        }
+      },
+      {
+        "weight": 0,
+        "range": {
+          "min": 650,
+          "max": 850
+        }
+      }
+    ],
+    "EnemyWaveInterval": [
+      {
+        "weight": 0,
+        "range": {
+          "min": 160,
+          "max": 180
+        }
+      },
+      {
+        "weight": 7.5,
+        "range": {
+          "min": 115,
+          "max": 125
+        }
+      },
+      {
+        "weight": 0,
+        "range": {
+          "min": 299,
+          "max": 299
+        }
+      }
+    ],
+    "EnemyNormalWaveInterval": [
+      {
+        "weight": 4,
+        "range": {
+          "min": 150,
+          "max": 180
+        }
+      },
+      {
+        "weight": 2,
+        "range": {
+          "min": 170,
+          "max": 180
+        }
+      }
+    ],
+    "EnemyNormalWaveDifficulty": [
+      {
+        "weight": 1,
+        "range": {
+          "min": 1050,
+          "max": 1150
+        }
+      }
+    ],
+    "EnemyDiversity": [
+      {
+        "weight": 0,
+        "range": {
+          "min": 5,
+          "max": 6
+        }
+      },
+      {
+        "weight": 8,
+        "range": {
+          "min": 30,
+          "max": 30
+        }
+      },
+      {
+        "weight": 0,
+        "range": {
+          "min": 9,
+          "max": 10
+        }
+      }
+    ],
+    "StationaryEnemyDiversity": [
+      {
+        "weight": 1,
+        "range": {
+          "min": 5,
+          "max": 6
+        }
+      }
+    ],
+    "VeteranNormal": [
+      {
+        "weight": 2,
+        "range": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "weight": 9,
+        "range": {
+          "min": 0.8,
+          "max": 0.9
+        }
+      },
+      {
+        "weight": 2,
+        "range": {
+          "min": 0.6,
+          "max": 0.7
+        }
+      },
+      {
+        "weight": 0,
+        "range": {
+          "min": 1,
+          "max": 1
+        }
+      }
+    ],
+    "VeteranLarge": [
+      {
+        "weight": 1,
+        "range": {
+          "min": 0.25,
+          "max": 0.25
+        }
+      }
+    ],
+    "DisruptiveEnemyPoolCount": {
+      "min": 25,
+      "max": 25
+    },
+    "MinPoolSize": 25,
+    "EnvironmentalDamageModifier": 3.6,
+    "PointExtractionScalar": 1.1,
+    "FriendlyFireModifier": 1,
+    "SpeedModifier": 1.75,
+    "AttackCooldownModifier": 2.7,
+    "ProjectileSpeedModifier": 2.8,
+    "HealthRegenerationMax": 0.1,
+    "ReviveHealthRatio": 0.1,
+    "EscortMule": {
+      "FriendlyFireModifier": 0.1,
+      "BigHitDamageModifier": 0.85,
+      "BigHitDamageReductionThreshold": 0,
+      "NeutralDamageModifier": 0.1
+    }
+  }
