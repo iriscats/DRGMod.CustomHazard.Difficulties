@@ -1,0 +1,315 @@
+{
+  "Name": "Hazard X 53",
+  "Description": "Made by Xino Million 24.10.19
+修改说明：破盾影刀；固定单位减半；随潮刷大水母；删除了荆棘丛，网草，娃娃机，EBTC，勘探者，腐化者，黄金大自爆",
+  "MaxActiveCritters": 40,
+  "MaxActiveSwarmers": 120,
+  "MaxActiveEnemies": 360,
+  "ResupplyCost": 60,
+  "StartingNitra": 20,
+  "ExtraLargeEnemyDamageResistance": [
+    1.4,
+    1.7,
+    2,
+    2.5
+  ],
+  "ExtraLargeEnemyDamageResistanceB": [
+    0.01,
+    0.01,
+    0.01,
+    0.01
+  ],
+  "ExtraLargeEnemyDamageResistanceC": [
+    0.01,
+    0.01,
+    0.01,
+    0.01
+  ],
+  "ExtraLargeEnemyDamageResistanceD": [
+    2,
+    2.1,
+    2.25,
+    2.45
+  ],
+  "EnemyDamageResistance": [
+    1.5,
+    1.5,
+    1.5,
+    1.5
+  ],
+  "SmallEnemyDamageResistance": [
+    1.2,
+    1.2,
+    1.2,
+    1.2
+  ],
+  "EnemyDamageModifier": [
+    3.4,
+    3.4,
+    3.4,
+    3.4
+  ],
+  "EnemyCountModifier": [
+    4.5,
+    4.5,
+   4.5,
+   4.5
+  ],
+  "EncounterDifficulty": [
+    {
+      "weight": 8,
+      "range": {
+        "min": 300,
+        "max": 400
+      }
+    }
+  ],
+  "StationaryDifficulty": [
+    {
+      "weight": 8,
+      "range": {
+        "min": 150,
+        "max": 200
+      }
+    }
+  ],
+  "EnemyWaveInterval": [
+    {
+      "weight": 8,
+      "range": {
+        "min": 120,
+        "max": 150
+      }
+    }
+  ],
+  "EnemyNormalWaveInterval": [
+    {
+      "weight": 6,
+      "range": {
+        "min": 160,
+        "max": 200
+      }
+    },
+    {
+      "weight": 4,
+      "range": {
+        "min": 180,
+        "max": 190
+      }
+    }
+  ],
+  "EnemyNormalWaveDifficulty": [
+    {
+      "weight": 8,
+      "range": {
+        "min": 360,
+        "max": 480
+      }
+    }
+  ],
+  "EnemyDiversity": [
+    {
+      "weight": 8,
+      "range": {
+        "min": 7,
+        "max": 4
+      }
+    }
+  ],
+  "StationaryEnemyDiversity": [
+    {
+      "weight": 8,
+      "range": {
+        "min": 4,
+        "max": 4
+      }
+    }
+  ],
+  "VeteranNormal": [
+    {
+      "weight": 8,
+      "range": {
+        "min": 0.8,
+        "max": 0.8
+      }
+    }
+  ],
+  "VeteranLarge": [
+    {
+      "weight": 8,
+      "range": {
+        "min": 0.3,
+        "max": 0.3
+      }
+    }
+  ],
+  "DisruptiveEnemyPoolCount": {
+    "min": 8,
+    "max": 8
+  },
+  "MinPoolSize": 8,
+  "MaxActiveElites": 8,
+  "EnvironmentalDamageModifier": 1,
+  "PointExtractionScalar": 1,
+  "HazardBonus": 1.33,
+  "FriendlyFireModifier": 0.5,
+  "WaveStartDelayScale": 0,
+  "SpeedModifier": 1.2,
+  "AttackCooldownModifier": 1.5,
+  "ProjectileSpeedModifier": 1.7,
+  "HealthRegenerationMax": 0.2,
+  "ReviveHealthRatio": 0.2,
+  "EliteCooldown": 0,
+  "EnemyDescriptors": {
+    "ED_Grabber": {
+      "Base": "ED_Grabber",
+      "Description": "捕手",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "MaxSpawnCount": 0,
+      "MinSpawnCount": 0,
+      "PawnStats": {}
+    },
+    "ED_Spider_Stalker": {
+      "Base": "ED_Spider_Stalker",
+      "Description": "碎盾隐刀",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 50,
+      "MinSpawnCount": 0,
+      "MaxSpawnCount": 0,
+      "Rarity": 5,
+      "PawnStats": {
+        "PST_DamageBonus": 0
+      }
+    },
+    "ED_BarrageInfector": {
+      "Base": "ED_BarrageInfector",
+      "Description": "肥猪",
+      "PawnStats": {
+        "PST_DamageResistance": 1.5
+      }
+    },
+    "ED_JellyBreeder": {
+      "Base": "ED_JellyBreeder",
+      "Description": "大水母",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": true,
+      "MaxSpawnCount": 0,
+      "MinSpawnCount": 0,
+      "PawnStats": {
+        "PST_DamageResistance": 2
+      }
+    },
+    "ED_Spider_ExploderTank": {
+      "Base": "ED_Spider_ExploderTank",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": false,
+      "MaxSpawnCount": 0,
+      "MinSpawnCount": 0,
+      "PawnStats": {
+        "PST_DamageResistance": 2
+      }
+    },
+    "ED_InfectedMule": {
+      "Base": "ED_Spider_Grunt",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 99999,
+      "MaxSpawnCount": 0,
+      "MinSpawnCount": 0,
+      "Rarity": 99,
+      "PawnStats": {}
+    },
+    "ED_Prospector": {
+      "Base": "ED_Spider_Grunt",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 99999,
+      "MaxSpawnCount": 0,
+      "MinSpawnCount": 0,
+      "Rarity": 99,
+      "PawnStats": {}
+    },
+    "ED_HydraWeed": {
+      "Base": "ED_Spider_Grunt",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 99999,
+      "MaxSpawnCount": 0,
+      "MinSpawnCount": 0,
+      "Rarity": 99,
+      "PawnStats": {}
+    },
+    "ED_Spider_ExploderTank_King": {
+      "Base": "ED_Spider_Grunt",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 99999,
+      "MaxSpawnCount": 0,
+      "MinSpawnCount": 0,
+      "Rarity": 99,
+      "PawnStats": {}
+    },
+    "ED_Terminator": {
+      "Base": "ED_Spider_Grunt",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 99999,
+      "MaxSpawnCount": 0,
+      "MinSpawnCount": 0,
+      "Rarity": 99,
+      "PawnStats": {}
+    },
+    "ED_WalkingPlagueheart": {
+      "Base": "ED_Spider_Grunt",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 99999,
+      "MaxSpawnCount": 0,
+      "MinSpawnCount": 0,
+      "Rarity": 99,
+      "PawnStats": {}
+    }
+  },
+  "EnemyPool": {
+    "clear": false,
+    "add": [],
+    "remove": []
+  },
+  "CommonEnemies": {
+    "clear": false,
+    "add": [
+      "ED_JellyBreeder"
+    ],
+    "remove": []
+  },
+  "SpecialEnemies": {
+    "clear": false,
+    "add": [],
+    "remove": []
+  },
+  "DisruptiveEnemies": {
+    "clear": false,
+    "add": [],
+    "remove": []
+  },
+  "StationaryEnemies": {
+    "clear": false,
+    "add": [],
+    "remove": [
+      "ED_Spider-ExploderTank-King",
+      "ED_HydraWeed",
+      "ED_InfectedMule",
+      "ED_JellyBreeder",
+      "ED_TentaclePlant"
+    ]
+  },
+  "SeasonalEvents": [],
+  "EscortMule": {
+    "FriendlyFireModifier": 0.1,
+    "BigHitDamageModifier": 0.75,
+    "BigHitDamageReductionThreshold": 0,
+    "NeutralDamageModifier": 0.1
+  }
+}
