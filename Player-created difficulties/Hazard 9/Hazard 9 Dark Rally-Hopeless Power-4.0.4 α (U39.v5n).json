@@ -1,0 +1,1564 @@
+{
+  "Name": "Hazard 9 Dark Rally-Hopeless Power-4.0.4 α (U39.v5n)",
+  "Description": "此代码及其衍生系列作者： &Mudrock，【黑暗集会系列4.0.4 α分支版本normal】特别鸣谢j-c-meow的额外技术支持，“自然潮引爆大自爆开启平地接潮”，更多战利品，矿化精英铠甲蝇，幻影虫后，一刀修罗，吐酸速射，里莲华机制启动，千万不要带冰钻！！！抗性调整：火、电、毒、动能、爆炸、辐射。配装可选：枪手：贯穿爆破，地狱烈焰/超磁线圈，钻机：灼热浪潮/蚀泥泵裂，超级电容/扩散射线（斧头或毒雷二选一）工程：连锁爆弹/炮塔电磁爆炸，胖男孩，侦查：腰射潮人/护盾协能，冰冻弩箭（带护盾协能投掷物选择电镖）",
+  "MaxActiveCritters": 20,
+  "MaxActiveSwarmers": 240,
+  "MaxActiveEnemies": 360,
+  "ResupplyCost": 60,
+  "StartingNitra": 60,
+  "ExtraLargeEnemyDamageResistance": [
+    2.5,
+    2.5,
+    2.5,
+    2.5
+  ],
+  "ExtraLargeEnemyDamageResistanceB": [
+    0.001,
+    0.001,
+    0.001,
+    0.001
+  ],
+  "ExtraLargeEnemyDamageResistanceC": [
+    0.1,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "ExtraLargeEnemyDamageResistanceD": [
+    2.4,
+    2.4,
+    2.4,
+    2.4
+  ],
+  "EnemyDamageResistance": [
+    2.4,
+    2.4,
+    2.4,
+    2.4
+  ],
+  "SmallEnemyDamageResistance": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "EnemyDamageModifier": [
+    5.8,
+    5.8,
+    5.8,
+    5.8
+  ],
+  "EnemyCountModifier": [
+    3,
+    3,
+    3,
+    3
+  ],
+  "EncounterDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 900,
+        "max": 950
+      }
+    }
+  ],
+  "StationaryDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 600,
+        "max": 650
+      }
+    }
+  ],
+  "EnemyWaveInterval": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 180,
+        "max": 190
+      }
+    }
+  ],
+  "EnemyNormalWaveInterval": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 270,
+        "max": 280
+      }
+    }
+  ],
+  "EnemyNormalWaveDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 2200,
+        "max": 2200
+      }
+    }
+  ],
+  "EnemyDiversity": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 100,
+        "max": 100
+      }
+    }
+  ],
+  "StationaryEnemyDiversity": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 6,
+        "max": 6
+      }
+    }
+  ],
+  "VeteranNormal": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    }
+  ],
+  "VeteranLarge": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    }
+  ],
+  "DisruptiveEnemyPoolCount": {
+    "min": 100,
+    "max": 100
+  },
+  "MinPoolSize": 100,
+  "MaxActiveElites": 100,
+  "EnvironmentalDamageModifier": 1.8,
+  "PointExtractionScalar": 1.8,
+  "HazardBonus": 1.33,
+  "FriendlyFireModifier": 0.5,
+  "WaveStartDelayScale": 0,
+  "SpeedModifier": 1.518,
+  "AttackCooldownModifier": 2.5,
+  "ProjectileSpeedModifier": 2.5,
+  "HealthRegenerationMax": 0.4,
+  "ReviveHealthRatio": 0.4,
+  "EliteCooldown": 0.1,
+  "EnemyDescriptors": {
+    "ED_Spider_Grunt_Attacker_Boss": {
+      "Base": "ED_Spider_Grunt_Attacker",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 15,
+      "IdealSpawnSize": 4,
+      "MaxSpawnCount": 4,
+      "MinSpawnCount": 4,
+      "Rarity": 10,
+      "Scale": 1.4,
+      "Elite": true,
+      "PawnStats": {
+        "PST_DamageBonus": 1.2,
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -2,
+        "PST_ElectricResistance": -2,
+        "PST_ExplosionResistance": -1.5,
+        "PST_FireResistance": -1.5,
+        "PST_KineticResistance": -1.5,
+        "PST_PoisonResistance": -5,
+        "PST_RadiationResistance": -5
+      }
+    },
+    "ED_Spider_RapidShooter": {
+      "Base": "ED_Spider_RapidShooter",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 25,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "Elite": true,
+      "PawnStats": {
+        "PST_DamageBonus": 1.2,
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -2,
+        "PST_ElectricResistance": -2,
+        "PST_ExplosionResistance": -2,
+        "PST_FireResistance": -2,
+        "PST_KineticResistance": -2,
+        "PST_PoisonResistance": -5,
+        "PST_RadiationResistance": -5
+      }
+    },
+    "ED_Spider_Grunt_Guard_Boss": {
+      "Base": "ED_Spider_Grunt_Guard",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 15,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 4,
+      "MinSpawnCount": 2,
+      "Rarity": 10,
+      "Scale": 1.4,
+      "Elite": true,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -3,
+        "PST_ElectricResistance": -3,
+        "PST_ExplosionResistance": -2,
+        "PST_FireResistance": -2.5,
+        "PST_KineticResistance": -2.5,
+        "PST_PoisonResistance": -6,
+        "PST_RadiationResistance": -6
+      }
+    },
+    "ED_Woodlouse_Youngling": {
+      "Base": "ED_Grabber",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 2,
+      "Elite": true,
+      "Rarity": 15,
+      "PawnStats": {
+        "PST_CorrosiveResistance": -6,
+        "PST_ElectricResistance": -6,
+        "PST_ExplosionResistance": -6,
+        "PST_FireResistance": -6,
+        "PST_KineticResistance": -6,
+        "PST_PoisonResistance": -10,
+        "PST_RadiationResistance": -10
+      }
+    },
+    "ED_Spider_Swarmer_Pheromone_NOFX": {
+      "Base": "ED_Woodlouse_Youngling",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "IdealSpawnSize": 5,
+      "MaxSpawnCount": 5,
+      "MinSpawnCount": 5,
+      "Elite": true,
+      "PawnStats": {
+        "PST_CorrosiveResistance": -3,
+        "PST_ElectricResistance": -3,
+        "PST_ExplosionResistance": -3,
+        "PST_FireResistance": -3,
+        "PST_KineticResistance": -3,
+        "PST_PoisonResistance": -10,
+        "PST_RadiationResistance": -10
+      }
+    },
+    "ED_Flea": {
+      "Base": "ED_Woodlouse_Youngling",
+      "Elite": true,
+      "PawnStats": {
+        "PST_CorrosiveResistance": -3,
+        "PST_ElectricResistance": -3,
+        "PST_ExplosionResistance": -3,
+        "PST_FireResistance": -3,
+        "PST_KineticResistance": -3,
+        "PST_PoisonResistance": -10,
+        "PST_RadiationResistance": -10
+      }
+    },
+    "ED_Spider_Swarmer_Pheromone_NOFX_Elite": {
+      "Base": "ED_Spider_Swarmer_Pheromone_NOFX",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 5,
+      "IdealSpawnSize": 10,
+      "MaxSpawnCount": 10,
+      "MinSpawnCount": 10,
+      "Elite": true,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_DamageBonus": 0.75,
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_PhysicalResistance": -10,
+        "PST_FireResistance": -3,
+        "PST_RadiationResistance": -3
+      }
+    },
+    "ED_EggSpider": {
+      "Base": "ED_Spider_Swarmer_Pheromone_NOFX",
+      "Elite": true,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_PhysicalResistance": -10,
+        "PST_FireResistance": -3,
+        "PST_RadiationResistance": -3
+      }
+    },
+    "ED_InfestationLarva": {
+      "Base": "ED_Spider_Swarmer_Pheromone_NOFX",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "Elite": true,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_PhysicalResistance": -10,
+        "PST_FireResistance": -3,
+        "PST_RadiationResistance": -3
+      }
+    },
+    "ED_Spider_Swarmer_Mutated": {
+      "Base": "ED_Spider_Swarmer_Pheromone_NOFX",
+      "Elite": true,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_PhysicalResistance": -10,
+        "PST_FireResistance": -3,
+        "PST_RadiationResistance": -3
+      }
+    },
+    "特工": {
+      "Base": "ED_Spider_Swarmer_Mutated",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 5,
+      "IdealSpawnSize": 5,
+      "MaxSpawnCount": 5,
+      "MinSpawnCount": 5,
+      "Elite": true,
+      "Rarity": 15,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_MovementSpeed": 2
+      }
+    },
+    "ED_Jelly_Swarmer": {
+      "Base": "ED_Spider_Swarmer_Pheromone_NOFX",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 2
+    },
+    "ED_Jelly_Swarmer_Elite": {
+      "Base": "ED_Jelly_Swarmer",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 5,
+      "IdealSpawnSize": 20,
+      "MaxSpawnCount": 20,
+      "MinSpawnCount": 20,
+      "Elite": true,
+      "Rarity": 10
+    },
+    "ED_PumpkinLootBug": {
+      "Base": "ED_Grabber",
+      "DifficultyRating": 60,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1
+    },
+    "冲锋猫猫虫": {
+      "Base": "ED_PumpkinLootBug",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 5,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 2,
+      "Elite": true,
+      "Rarity": 15
+    },
+    "ED_Shredder": {
+      "Base": "ED_PumpkinLootBug",
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Elite": true
+    },
+    "ED_PatrolBot_Caretaker": {
+      "Base": "ED_Shredder",
+      "Elite": true
+    },
+    "ED_PatrolBot": {
+      "Base": "ED_PatrolBot_Caretaker",
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "PawnStats": {
+        "PST_DamageBonus": 0.5,
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -8,
+        "PST_ElectricResistance": -8,
+        "PST_ExplosionResistance": -4,
+        "PST_KineticResistance": -8,
+        "PST_PhysicalResistance": -10,
+        "PST_RadiationResistance": -10
+      }
+    },
+    "ED_Shredder_Elite": {
+      "Base": "ED_Shredder",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 5,
+      "IdealSpawnSize": 10,
+      "MaxSpawnCount": 10,
+      "MinSpawnCount": 10,
+      "Elite": true,
+      "Rarity": 10,
+      "Scale": 0.4,
+      "PawnStats": {
+        "PST_DamageBonus": 0.1,
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.1,
+        "PST_CorrosiveResistance": -4,
+        "PST_ElectricResistance": -4,
+        "PST_KineticResistance": -4,
+        "PST_ExplosionResistance": -4,
+        "PST_PhysicalResistance": -4,
+        "PST_RadiationResistance": -4
+      }
+    },
+    "猎户座威龙": {
+      "Base": "ED_Mactera_Shooter_HeavyVeteran",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 50,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 15,
+      "Elite": true,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_ColdResistance": 1,
+        "PST_CorrosiveResistance": 1,
+        "PST_ElectricResistance": 1,
+        "PST_ExplosionResistance": 1,
+        "PST_FireResistance": 1,
+        "PST_KineticResistance": 1,
+        "PST_PiercingResistance": -3,
+        "PST_InternalDamageResistance": 1,
+        "PST_PhysicalResistance": -10,
+        "PST_PoisonResistance": 1,
+        "PST_RadiationResistance": 1
+      }
+    },
+    "ED_Prospector": {
+      "Base": "ED_PumpkinLootBug",
+      "Elite": true
+    },
+    "ED_ShootingPlant": {
+      "Base": "ED_ShootingPlant",
+      "DifficultyRating": 100,
+      "PawnStats": {
+        "PST_PiercingResistance": -2
+      }
+    },
+    "ED_BarrageInfector": {
+      "Base": "ED_Prospector",
+      "DifficultyRating": 50,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Rarity": 15,
+      "PawnStats": {
+        "PST_MovementSpeed": 0.01,
+        "PST_DamageFromPlayers": 30
+      }
+    },
+    "ED_HydraWeed": {
+      "Base": "ED_PumpkinLootBug",
+      "Elite": true
+    },
+    "ED_Terminator": {
+      "Base": "ED_PumpkinLootBug",
+      "Elite": true
+    },
+    "魔王复仇者": {
+      "Base": "ED_Terminator",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 500,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Rarity": 30,
+      "PawnStats": {
+        "PST_DamageFromPlayers": 10
+      }
+    },
+    "ED_FacilityTurret_Burst": {
+      "Base": "ED_Terminator",
+      "DifficultyRating": 1000,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "PawnStats": {
+        "PST_DamageFromPlayers": 7
+      }
+    },
+    "ED_CaveLeech": {
+      "Base": "ED_BarrageInfector",
+      "DifficultyRating": 100,
+      "Elite": true,
+      "PawnStats": {
+        "PST_DamageBonus": 0.5,
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_KineticResistance": -4.55
+      }
+    },
+    "ED_SpiderSpawner": {
+      "Base": "ED_BarrageInfector",
+      "DifficultyRating": 100,
+      "Elite": true,
+      "PawnStats": {
+        "PST_DamageBonus": 0.5,
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_KineticResistance": -4.55
+      }
+    },
+    "ED_JellyBreeder": {
+      "Base": "ED_CaveLeech",
+      "DifficultyRating": 100,
+      "Scale": 0.9,
+      "Elite": true,
+      "PawnStats": {
+        "PST_PiercingResistance": 1,
+        "PST_DamageFromPlayers": 3
+      }
+    },
+    "ED_JellyBreederElite": {
+      "Base": "ED_JellyBreeder",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 25,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_KineticResistance": -8,
+        "PST_ExplosionResistance": -3,
+        "PST_PiercingResistance": -35
+      }
+    },
+    "ED_TentaclePlant": {
+      "Base": "ED_SpiderSpawner",
+      "DifficultyRating": 50,
+      "Elite": true,
+      "PawnStats": {
+        "PST_DamageFromPlayers": 4
+      }
+    },
+    "ED_WalkingPlagueheart": {
+      "Base": "ED_PumpkinLootBug",
+      "Elite": true
+    },
+    "ED_InfectedMule": {
+      "Base": "ED_PumpkinLootBug",
+      "Elite": true
+    },
+    "ED_Spider_ShooterQueen": {
+      "Base": "ED_Spider_Shooter"
+    },
+    "ED_Bomber_Explosive": {
+      "Base": "ED_Grabber"
+    },
+    "ED_Bomber_Explosive_Elite": {
+      "Base": "ED_Bomber_Explosive",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 50,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -2,
+        "PST_ElectricResistance": -2,
+        "PST_ExplosionResistance": -2,
+        "PST_FireResistance": -3,
+        "PST_KineticResistance": -2,
+        "PST_PhysicalResistance": -3,
+        "PST_PoisonResistance": -6,
+        "PST_RadiationResistance": -6
+      }
+    },
+    "ED_Spider_Tank_Amber": {
+      "Base": "ED_Grabber"
+    },
+    "ED_Spider_Tank_Amber_Elite": {
+      "Base": "ED_Spider_Tank_Amber",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 50,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -2,
+        "PST_ElectricResistance": -2,
+        "PST_ExplosionResistance": -2,
+        "PST_FireResistance": -2,
+        "PST_KineticResistance": -2,
+        "PST_PhysicalResistance": -3,
+        "PST_PoisonResistance": -6,
+        "PST_RadiationResistance": -6
+      }
+    },
+    "ED_Mactera_Shooter_Amber": {
+      "Base": "ED_Spider_Tank_Amber"
+    },
+    "ED_Spider_Amber_Shooter": {
+      "Base": "ED_Mactera_Shooter_Amber"
+    },
+    "ED_Spider_Amber_Shooter_Elite": {
+      "Base": "ED_Spider_Amber_Shooter",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 50,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Rarity": 15,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -2,
+        "PST_ElectricResistance": -2,
+        "PST_ExplosionResistance": -2,
+        "PST_FireResistance": -2.5,
+        "PST_KineticResistance": -2,
+        "PST_PoisonResistance": -5,
+        "PST_RadiationResistance": -5
+      }
+    },
+    "ED_Spider_Tank_Rock": {
+      "Base": "ED_Grabber"
+    },
+    "泥岩巨像": {
+      "Base": "ED_Spider_Tank_Rock",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 50,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Scale": 1.2,
+      "Elite": true,
+      "Rarity": 15,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_DamageFromPlayers": 10.5,
+        "PST_ExplodeOnDeath": 1
+      }
+    },
+    "ED_Spider_Grunt_Rock": {
+      "Base": "ED_Spider_Tank_Rock"
+    },
+    "ED_Spider_Grunt_Rock_Elite": {
+      "Base": "ED_Spider_Grunt_Rock",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 10,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_DamageFromPlayers": 5.5,
+        "PST_ExplodeOnDeath": 1
+      }
+    },
+    "ED_PlagueShark": {
+      "Base": "ED_Grabber"
+    },
+    "ED_Spider_Stalker": {
+      "Base": "ED_PumpkinLootBug",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 5,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Rarity": 10
+    },
+    "鬼影兵团": {
+      "Base": "ED_Spider_Stalker",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 10,
+      "IdealSpawnSize": 5,
+      "MaxSpawnCount": 5,
+      "MinSpawnCount": 5,
+      "Elite": true,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_DamageBonus": 0.25,
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -5,
+        "PST_ElectricResistance": -10,
+        "PST_ExplosionResistance": -5,
+        "PST_FireResistance": -5,
+        "PST_KineticResistance": -5,
+        "PST_PoisonResistance": -10,
+        "PST_RadiationResistance": -15
+      }
+    },
+    "ED_Shark": {
+      "Base": "ED_PlagueShark"
+    },
+    "ED_TunnelSwarmer": {
+      "Base": "ED_Shark",
+      "DifficultyRating": 10,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 2,
+      "Elite": true,
+      "Rarity": 15,
+      "PawnStats": {
+        "PST_CorrosiveResistance": -5,
+        "PST_ElectricResistance": -10,
+        "PST_ExplosionResistance": -5,
+        "PST_FireResistance": -5,
+        "PST_KineticResistance": -15,
+        "PST_PoisonResistance": -6,
+        "PST_RadiationResistance": -6
+      }
+    },
+    "ED_Bomber_Ice": {
+      "Base": "ED_Bomber_Explosive"
+    },
+    "ED_Bomber": {
+      "Base": "ED_Bomber_Ice",
+      "DifficultyRating": 50,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -3,
+        "PST_ElectricResistance": -3,
+        "PST_ExplosionResistance": -2,
+        "PST_FireResistance": -3,
+        "PST_KineticResistance": -2,
+        "PST_PoisonResistance": -4,
+        "PST_RadiationResistance": -4
+      }
+    },
+    "ED_Bomber_Elite": {
+      "Base": "ED_Bomber",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 50,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Rarity": 15,
+      "PawnStats": {
+        "PST_DamageBonus": 1.2,
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -3,
+        "PST_ElectricResistance": -3,
+        "PST_ExplosionResistance": -2,
+        "PST_FireResistance": -3,
+        "PST_KineticResistance": -2,
+        "PST_PoisonResistance": -4,
+        "PST_RadiationResistance": -4
+      }
+    },
+    "ED_Spider_Grunt_Mutated": {
+      "Base": "ED_Spider_Grunt_Attacker",
+      "DifficultyRating": 10
+    },
+    "ED_Spider_Grunt_Ice": {
+      "Base": "ED_Spider_Grunt_Attacker",
+      "DifficultyRating": 10
+    },
+    "精英凛冬护卫": {
+      "Base": "ED_Spider_Grunt_Ice",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 15,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 2,
+      "Elite": true,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_FireResistance": -3,
+        "PST_RadiationResistance": -6
+      }
+    },
+    "ED_Spider_Grunt_Mutated_Elite": {
+      "Base": "ED_Spider_Grunt_Mutated",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 15,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 2,
+      "Elite": true,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -3,
+        "PST_ElectricResistance": -3
+      }
+    },
+    "ED_Spider_Tank_Mutated": {
+      "Base": "ED_Spider_Tank"
+    },
+    "ED_Spider_Tank_Mutated_Elite": {
+      "Base": "ED_Spider_Tank_Mutated",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 50,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Scale": 2.2,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_DamageBonus": 1.2,
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -2,
+        "PST_ElectricResistance": -2,
+        "PST_ExplosionResistance": -1.5,
+        "PST_FireResistance": -1.5,
+        "PST_KineticResistance": -1.5,
+        "PST_PoisonResistance": -5,
+        "PST_RadiationResistance": -5
+      }
+    },
+    "ED_Spider_ShieldTank": {
+      "Base": "ED_Spider_Tank",
+      "Elite": true,
+      "Scale": 1.4,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -2,
+        "PST_ElectricResistance": -2,
+        "PST_ExplosionResistance": -2,
+        "PST_FireResistance": -2,
+        "PST_KineticResistance": -2,
+        "PST_PoisonResistance": -5,
+        "PST_RadiationResistance": -5
+      }
+    },
+    "ED_Spider_ShieldTank_Elite": {
+      "Base": "ED_Spider_ShieldTank",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 50,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "TimeDilation": 2,
+      "Elite": true,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_FireResistance": -2,
+        "PST_KineticResistance": -2,
+        "PST_PoisonResistance": -5,
+        "PST_PhysicalResistance": -2,
+        "PST_RadiationResistance": -5
+      }
+    },
+    "ED_Spider_Tank_Ice_Elite": {
+      "Base": "ED_Spider_Tank_Ice",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 25,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_DamageBonus": 1.2,
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -3,
+        "PST_ElectricResistance": -3,
+        "PST_ExplosionResistance": -1.5,
+        "PST_FireResistance": -2.5,
+        "PST_KineticResistance": -2.5,
+        "PST_PoisonResistance": -6,
+        "PST_RadiationResistance": -6
+      }
+    },
+    "ED_Spider_Tank_HeavySpawn": {
+      "Base": "ED_Mactera_Shooter_Amber",
+      "Elite": true,
+      "PawnStats": {
+        "PST_DamageBonus": 0.5,
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -3,
+        "PST_ElectricResistance": -5,
+        "PST_ExplosionResistance": -1.5,
+        "PST_FireResistance": -5,
+        "PST_KineticResistance": -1.5,
+        "PST_PhysicalResistance": -5,
+        "PST_PoisonResistance": -5,
+        "PST_RadiationResistance": -6
+      }
+    },
+    "ED_Spider_Tank_HeavySpawn_Elite": {
+      "Base": "ED_Spider_Tank_HeavySpawn",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 25,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -2,
+        "PST_ElectricResistance": -2,
+        "PST_FireResistance": -2,
+        "PST_KineticResistance": -1.5,
+        "PST_PoisonResistance": -6,
+        "PST_RadiationResistance": -6
+      }
+    },
+    "ED_Spider_Boss_TwinB_Normal": {
+      "Base": "ED_Spider_Boss_TwinB",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 100,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_PowerAttackCooldownRate": 0.1,
+        "PST_ColdResistance": -6,
+        "PST_CorrosiveResistance": -15,
+        "PST_ElectricResistance": -10,
+        "PST_ExplosionResistance": -10,
+        "PST_FireResistance": -15,
+        "PST_InternalDamageResistance": -10,
+        "PST_KineticResistance": -10,
+        "PST_PhysicalResistance": -10,
+        "PST_PoisonResistance": -10,
+        "PST_RadiationResistance": -10
+      }
+    },
+    "ED_Spider_Boss_TwinA_Normal": {
+      "Base": "ED_Spider_Boss_TwinA",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 100,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_PowerAttackCooldownRate": 0.1,
+        "PST_ColdResistance": -6,
+        "PST_CorrosiveResistance": -15,
+        "PST_ElectricResistance": -10,
+        "PST_ExplosionResistance": -10,
+        "PST_FireResistance": -15,
+        "PST_InternalDamageResistance": -10,
+        "PST_KineticResistance": -10,
+        "PST_PhysicalResistance": -10,
+        "PST_PoisonResistance": -10,
+        "PST_RadiationResistance": -10
+      }
+    },
+    "ED_Spider_Tank_Boss": {
+      "Base": "ED_Grabber",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": false
+    },
+    "矿洞毁灭者": {
+      "Base": "ED_Spider_Tank_Boss",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 950,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Rarity": 18,
+      "PawnStats": {
+        "PST_PowerAttackCooldownRate": 0.1,
+        "PST_ColdResistance": -10,
+        "PST_CorrosiveResistance": -15,
+        "PST_ElectricResistance": -15,
+        "PST_ExplosionResistance": -30,
+        "PST_FireResistance": -10,
+        "PST_InternalDamageResistance": -10,
+        "PST_KineticResistance": -10,
+        "PST_PhysicalResistance": -20,
+        "PST_PoisonResistance": -20,
+        "PST_RadiationResistance": -20
+      }
+    },
+    "ED_Spider_Boss_Heavy": {
+      "Base": "ED_Spider_Tank_Boss",
+      "Elite": true
+    },
+    "烈风巢主": {
+      "Base": "ED_Spider_Boss_Heavy",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 500,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Rarity": 30,
+      "PawnStats": {
+        "PST_PowerAttackCooldownRate": 0.1,
+        "PST_MovementSpeed": 1.2,
+        "PST_CorrosiveResistance": -20,
+        "PST_ElectricResistance": -20,
+        "PST_ExplosionResistance": -35,
+        "PST_FireResistance": -15,
+        "PST_KineticResistance": -15,
+        "PST_InternalDamageResistance": -15,
+        "PST_PhysicalResistance": -15,
+        "PST_PoisonResistance": -25,
+        "PST_RadiationResistance": -25
+      }
+    },
+    "ED_Spider_ExploderTank_King": {
+      "Base": "ED_Grabber"
+    },
+    "烈风自爆王虫": {
+      "Base": "ED_Spider_ExploderTank_King",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 150,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 30,
+      "Elite": true,
+      "PawnStats": {
+        "PST_PiercingResistance": -10,
+        "PST_RadiationResistance": -20
+      }
+    },
+    "ED_Spider_ExploderTank": {
+      "Base": "ED_Spider_ExploderTank",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 100,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 30,
+      "Elite": true,
+      "PawnStats": {
+        "PST_PiercingResistance": -10,
+        "PST_ExplosionResistance": -10,
+        "PST_RadiationResistance": -20
+      }
+    },
+    "ED_Spider_Stinger": {
+      "Base": "ED_PumpkinLootBug",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 5,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "Elite": true
+    },
+    "ED_Spider_Stinger_Elite": {
+      "Base": "ED_Spider_Stinger",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 50,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_CorrosiveResistance": -2,
+        "PST_ElectricResistance": -2,
+        "PST_ExplosionResistance": -1.5,
+        "PST_FireResistance": -1.5,
+        "PST_KineticResistance": -1.5,
+        "PST_PhysicalResistance": -1,
+        "PST_PoisonResistance": -5,
+        "PST_RadiationResistance": -5
+      }
+    },
+    "ED_Spider_Lobber": {
+      "Base": "ED_PumpkinLootBug",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 5,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "Elite": true
+    },
+    "ED_Spider_Lobber_Elite": {
+      "Base": "ED_Spider_Lobber",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 25,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -3,
+        "PST_ElectricResistance": -4,
+        "PST_ExplosionResistance": -1.5,
+        "PST_FireResistance": -2,
+        "PST_KineticResistance": -2,
+        "PST_PhysicalResistance": -4,
+        "PST_PoisonResistance": -6,
+        "PST_RadiationResistance": -6
+      }
+    },
+    "ED_Woodlouse": {
+      "Base": "ED_PumpkinLootBug",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 5,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "Elite": true
+    },
+    "ED_Woodlouse_Elite": {
+      "Base": "ED_Woodlouse",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 50,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Rarity": 15,
+      "PawnStats": {
+        "PST_CorrosiveResistance": -4,
+        "PST_ElectricResistance": -4,
+        "PST_ExplosionResistance": -1.5,
+        "PST_FireResistance": -2,
+        "PST_KineticResistance": -1.5,
+        "PST_PhysicalResistance": -4,
+        "PST_PoisonResistance": -6,
+        "PST_RadiationResistance": -6
+      }
+    },
+    "ED_Spider_Exploder": {
+      "Base": "ED_PumpkinLootBug",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 5,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "Elite": true
+    },
+    "ED_Spider_Exploder_Elite": {
+      "Base": "ED_Spider_Exploder",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 5,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 2,
+      "Elite": true,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_MovementSpeed": 1.1
+      }
+    },
+    "ED_Spider_Buffer": {
+      "Base": "ED_PumpkinLootBug",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 5,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "Elite": true
+    },
+    "ED_Spider_Buffer_Elite": {
+      "Base": "ED_Spider_Buffer",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 50,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Rarity": 15,
+      "PawnStats": {
+        "PST_DamageFromPlayers": 3
+      }
+    },
+    "ED_Spider_Shooter_Rockpox_Plague": {
+      "Base": "ED_Spider_Shooter"
+    },
+    "ED_Spider_Spitter": {
+      "Base": "ED_Spider_Shooter_Rockpox_Plague",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 50,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "Elite": true,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -4,
+        "PST_ElectricResistance": -4,
+        "PST_ExplosionResistance": -2,
+        "PST_FireResistance": -2.5,
+        "PST_KineticResistance": -2,
+        "PST_PhysicalResistance": -4,
+        "PST_PoisonResistance": -6,
+        "PST_RadiationResistance": -6
+      }
+    },
+    "ED_JellyBreeder_RockpoxPlague": {
+      "Base": "ED_Spider_Shooter_Rockpox_Plague",
+      "Elite": true
+    },
+    "疫害制造者": {
+      "Base": "ED_JellyBreeder_RockpoxPlague",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 50,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_KineticResistance": -40,
+        "PST_ExplosionResistance": -15,
+        "PST_PiercingResistance": -40
+      }
+    },
+    "ED_Spider_Spitter_Elite": {
+      "Base": "ED_Spider_Spitter",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 25,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "TimeDilation": 2,
+      "Rarity": 15,
+      "Elite": true,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -4,
+        "PST_ElectricResistance": -4,
+        "PST_ExplosionResistance": -1.5,
+        "PST_FireResistance": -2.5,
+        "PST_KineticResistance": -2,
+        "PST_PhysicalResistance": -4,
+        "PST_PoisonResistance": -6,
+        "PST_RadiationResistance": -6
+      }
+    },
+    "ED_FlyingSmartRock": {
+      "Base": "ED_Mactera_Shooter_Normal",
+      "Elite": true,
+      "PawnStats": {
+        "PST_CorrosiveResistance": -4,
+        "PST_ElectricResistance": -3,
+        "PST_ExplosionResistance": -1.5,
+        "PST_FireResistance": -3,
+        "PST_KineticResistance": -2,
+        "PST_PhysicalResistance": -5,
+        "PST_PoisonResistance": -8,
+        "PST_RadiationResistance": -8
+      }
+    },
+    "ED_Mactera_Shooter_HeavyVeteran": {
+      "Base": "ED_Mactera_TripleShooter",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "Rarity": 15
+    },
+    "ED_Mactera_TripleShooter": {
+      "Base": "ED_Mactera_TripleShooter",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "Elite": true,
+      "Rarity": 15,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -3,
+        "PST_ElectricResistance": -3,
+        "PST_ExplosionResistance": -2,
+        "PST_FireResistance": -2,
+        "PST_KineticResistance": -2,
+        "PST_PhysicalResistance": -5,
+        "PST_PoisonResistance": -5,
+        "PST_RadiationResistance": -5
+      }
+    },
+    "ED_Grabber": {
+      "Base": "ED_Grabber",
+      "DifficultyRating": 50,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "TimeDilation": 0.75,
+      "Rarity": 15,
+      "Elite": true,
+      "PawnStats": {
+        "PST_CorrosiveResistance": -6,
+        "PST_ElectricResistance": -6,
+        "PST_ExplosionResistance": -4,
+        "PST_FireResistance": -6,
+        "PST_KineticResistance": -6,
+        "PST_PoisonResistance": -10,
+        "PST_RadiationResistance": -10
+      }
+    },
+    "ED_Spider_Tank": {
+      "Base": "ED_Spider_Tank",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 50,
+      "Elite": true,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_DamageResistance": 1.25,
+        "PST_ElectricResistance": -1.5,
+        "PST_FireResistance": -1.5,
+        "PST_KineticResistance": -2,
+        "PST_PoisonResistance": -3,
+        "PST_RadiationResistance": -3
+      }
+    },
+    "ED_Spider_ShooterKing": {
+      "Base": "ED_Spider_Shooter",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 50,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "Elite": true,
+      "PawnStats": {
+        "PST_DamageBonus": 0.5,
+        "PST_CritBonusDamage": 10,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -4,
+        "PST_ElectricResistance": -4,
+        "PST_ExplosionResistance": -3,
+        "PST_FireResistance": -3,
+        "PST_KineticResistance": -3,
+        "PST_PoisonResistance": -6,
+        "PST_RadiationResistance": -6
+      }
+    },
+    "ED_Crawler": {
+      "Base": "ED_Spider_ShooterQueen",
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 2,
+      "PawnStats": {
+        "PST_DamageFromPlayers": 5
+      }
+    },
+    "ED_Crawler_Elite": {
+      "Base": "ED_Crawler",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 15,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 2,
+      "Elite": true,
+      "Rarity": 10,
+      "PawnStats": {
+        "PST_CritBonusDamage": 2,
+        "PST_CritChance": 0.25,
+        "PST_CorrosiveResistance": -3,
+        "PST_ElectricResistance": -3,
+        "PST_ExplosionResistance": -2,
+        "PST_FireResistance": -3,
+        "PST_KineticResistance": -3.5,
+        "PST_PhysicalResistance": -5,
+        "PST_PoisonResistance": -6,
+        "PST_RadiationResistance": -6
+      }
+    },
+    "ED_Spider_Shooter": {
+      "Base": "ED_Spider_ShooterQueen",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 100,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Elite": true,
+      "Rarity": 18,
+      "PawnStats": {
+        "PST_DamageBonus": 0.5,
+        "PST_FireResistance": -40,
+        "PST_KineticResistance": -45,
+        "PST_PiercingResistance": -30,
+        "PST_ExplosionResistance": -50,
+        "PST_RadiationResistance": -50
+      }
+    }
+  },
+  "EnemyPool": {
+    "clear": false,
+    "add": [],
+    "remove": []
+  },
+  "CommonEnemies": {
+    "clear": false,
+    "add": [
+      "精英凛冬护卫",
+      "ED_Spider_Grunt_Mutated_Elite",
+      "ED_Spider_Grunt_Attacker_Boss",
+      "ED_Spider_Grunt_Guard_Boss",
+      "ED_Spider_Tank_Mutated_Elite",
+      "ED_Spider_Tank_Ice_Elite",
+      "ED_Spider_ShieldTank_Elite",
+      "ED_Spider_Boss_TwinA_Normal",
+      "ED_Spider_Boss_TwinB_Normal",
+      "矿洞毁灭者",
+      "烈风巢主",
+      "魔王复仇者"
+    ],
+    "remove": [
+      "ED_Spider_Tank_Boss"
+    ]
+  },
+  "SpecialEnemies": {
+    "clear": false,
+    "add": [
+      "ED_Bomber_Explosive_Elite",
+      "ED_Bomber_Elite",
+      "ED_Shredder_Elite",
+      "ED_Spider_Boss_TwinA_Normal",
+      "ED_Spider_Boss_TwinB_Normal",
+      "矿洞毁灭者",
+      "ED_Spider_Grunt_Rock_Elite",
+      "ED_Spider_Tank_HeavySpawn_Elite",
+      "ED_Spider_Tank_Amber_Elite",
+      "冲锋猫猫虫",
+      "ED_Spider_Stinger_Elite",
+      "ED_Spider_Lobber_Elite",
+      "ED_Woodlouse_Elite",
+      "ED_Spider_Buffer_Elite",
+      "ED_Spider_Spitter_Elite",
+      "ED_Jelly_Swarmer_Elite",
+      "ED_Spider_Exploder_Elite",
+      "ED_Spider_Swarmer_Pheromone_NOFX_Elite",
+      "鬼影兵团",
+      "疫害制造者",
+      "特工",
+      "泥岩巨像",
+      "猎户座威龙",
+      "魔王复仇者",
+      "烈风巢主",
+      "ED_JellyBreederElite",
+      "ED_Crawler_Elite",
+      "ED_Spider_Amber_Shooter_Elite",
+      "ED_Spider_ShooterKing"
+    ],
+    "remove": [
+      "ED_Spider_Tank_Boss"
+    ]
+  },
+  "DisruptiveEnemies": {
+    "clear": false,
+    "add": [
+      "ED_Spider_Boss_TwinA_Normal",
+      "ED_Spider_Boss_TwinB_Normal",
+      "矿洞毁灭者",
+      "烈风巢主",
+      "魔王复仇者",
+      "烈风自爆王虫"
+    ],
+    "remove": [
+      "ED_Spider_Tank_Boss"
+    ]
+  },
+  "StationaryEnemies": {
+    "clear": false,
+    "add": [],
+    "remove": []
+  },
+  "SeasonalEvents": [],
+  "EscortMule": {
+    "FriendlyFireModifier": 0.1,
+    "BigHitDamageModifier": 0.975,
+    "BigHitDamageReductionThreshold": 0,
+    "NeutralDamageModifier": 0.1
+  }
+}
