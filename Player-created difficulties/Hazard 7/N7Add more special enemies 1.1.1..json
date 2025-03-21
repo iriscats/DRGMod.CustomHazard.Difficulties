@@ -1,9 +1,11 @@
 {
-  "Name": "Hazard N7Add more special enemies 1.0.1",
-  "Description": "Made by Xino Million 25.02.10
+  "Name": "Hazard N7Add more special enemies 1.1.1",
+  "Description": "Made by Xino Million 25.03.21
  代码说明：基于不困难的多样性，speedrun，115系列，花开梦落等代码编写。
 本代码：1.自然潮90秒，播报潮120秒。2.有各种特化虫群，但本质上遵循什么都能打的思路
-3.动态波刷潮不是固定的，4.固定单位全体限制，关爱侦查宝宝5.鼓励平地接潮，狗洞注意安全",
+3.动态波刷潮不是固定的，4.固定单位全体限制，关爱侦查宝宝5.鼓励平地接潮，狗洞注意安全
+6.母巢2发冰弩最佳。
+",
   "MaxActiveCritters": 40,
   "MaxActiveSwarmers": 120,
   "MaxActiveEnemies": 360,
@@ -70,8 +72,8 @@
     {
       "weight": 8,
       "range": {
-        "min": 300,
-        "max": 300
+        "min": 200,
+        "max": 200
       }
     }
   ],
@@ -97,8 +99,8 @@
     {
       "weight": 8,
       "range": {
-        "min": 1000,
-        "max": 1000
+        "min": 800,
+        "max": 800
       }
     }
   ],
@@ -166,7 +168,7 @@
       "Rarity": 11,
       "PawnStats": {
         "PST_DamageResistance": 2,
-        "PST_MovementSpeed": 2
+        "PST_MovementSpeed": 1.5
       }
     },
     "ED_Spider_Spawn": {
@@ -211,9 +213,9 @@
       "CanBeUsedForConstantPressure": true,
       "CanBeUsedInEncounters": true,
       "DifficultyRating": 10,
-      "MaxSpawnCount": 1,
+      "MaxSpawnCount": 0,
       "MinSpawnCount": 1,
-      "Rarity": 10,
+      "Rarity": 15,
       "PawnStats": {
         "PST_PhysicalResistance": -2,
         "PST_DamageResistance": 3
@@ -291,18 +293,8 @@
       "MinSpawnCount": 1,
       "Rarity": 12,
       "PawnStats": {
-        "PST_ColdResistance": 0.9,
-        "PST_CorrosiveResistance": 0.9,
-        "PST_ElectricResistance": 0.4,
-        "PST_ExplosionResistance": 0.9,
-        "PST_FireResistance": 0.9,
-        "PST_InternalDamageResistance": 0.9,
-        "PST_KineticResistance": 0.9,
-        "PST_PhysicalResistance": 0.9,
-        "PST_PoisonResistance": 0.9,
-        "PST_RadiationResistance": 0.9,
         "PST_MovementSpeed": 0.5,
-        "PST_DamageResistance": 3
+        "PST_DamageResistance": 2
       }
     },
     "禁卫": {
@@ -328,8 +320,7 @@
       "Rarity": 12,
       "SpawnAmountModifier": 0.5,
       "PawnStats": {
-        "PST_DamageResistance": 3,
-        "PST_MovementSpeed": 2
+        "PST_DamageResistance": 3
       }
     },
     "冰禁卫": {
@@ -350,9 +341,9 @@
       "CanBeUsedForConstantPressure": true,
       "CanBeUsedInEncounters": true,
       "DifficultyRating": 20,
-      "MaxSpawnCount": 1,
+      "MaxSpawnCount": 0,
       "MinSpawnCount": 1,
-      "Rarity": 12,
+      "Rarity": 15,
       "SpawnAmountModifier": 0.5,
       "PawnStats": {
         "PST_PhysicalResistance": -2,
@@ -382,8 +373,7 @@
       "Rarity": 12,
       "SpawnAmountModifier": 0.5,
       "PawnStats": {
-        "PST_DamageResistance": 3,
-        "PST_MovementSpeed": 2
+        "PST_DamageResistance": 3
       }
     },
     "蝎子莱莱": {
@@ -421,11 +411,11 @@
       "CanBeUsedForConstantPressure": true,
       "CanBeUsedInEncounters": true,
       "DifficultyRating": 30,
-      "MaxSpawnCount": 2,
+      "MaxSpawnCount": 1,
       "MinSpawnCount": 1,
       "Scale": 0.5,
       "TimeDilation": 1.6,
-      "Rarity": 13,
+      "Rarity": 15,
       "SpawnAmountModifier": 0.5,
       "PawnStats": {
         "PST_DamageResistance": 3
@@ -436,11 +426,11 @@
       "CanBeUsedForConstantPressure": true,
       "CanBeUsedInEncounters": false,
       "DifficultyRating": 30,
-      "MaxSpawnCount": 2,
+      "MaxSpawnCount": 1,
       "MinSpawnCount": 1,
       "Scale": 0.5,
       "TimeDilation": 1.6,
-      "Rarity": 13,
+      "Rarity": 15,
       "SpawnAmountModifier": 0.5,
       "PawnStats": {
         "PST_DamageResistance": 8
@@ -451,11 +441,11 @@
       "CanBeUsedForConstantPressure": true,
       "CanBeUsedInEncounters": false,
       "DifficultyRating": 30,
-      "MaxSpawnCount": 2,
+      "MaxSpawnCount": 1,
       "MinSpawnCount": 1,
       "Scale": 0.5,
       "TimeDilation": 1.6,
-      "Rarity": 13,
+      "Rarity": 15,
       "SpawnAmountModifier": 0.5,
       "PawnStats": {
         "PST_DamageResistance": 8
@@ -466,9 +456,9 @@
       "CanBeUsedForConstantPressure": true,
       "CanBeUsedInEncounters": true,
       "DifficultyRating": 30,
-      "MaxSpawnCount": 2,
+      "MaxSpawnCount": 1,
       "MinSpawnCount": 1,
-      "Rarity": 13,
+      "Rarity": 15,
       "Scale": 0.5,
       "TimeDilation": 1.6,
       "PawnStats": {
@@ -638,6 +628,9 @@
       "MinSpawnCount": 1,
       "Rarity": 20,
       "PawnStats": {
+        "PST_FireResistance": -3,
+        "PST_KineticResistance": -3,
+        "PST_ExplosionResistance": -3,
         "PST_DamageResistance": 19
       }
     },
@@ -699,7 +692,7 @@
       "DifficultyRating": 40,
       "MaxSpawnCount": 1,
       "MinSpawnCount": 1,
-      "Rarity": 15,
+      "Rarity": 19,
       "PawnStats": {
         "PST_DamageResistance": 1.5
       }
@@ -711,7 +704,7 @@
       "DifficultyRating": 40,
       "MaxSpawnCount": 1,
       "MinSpawnCount": 1,
-      "Rarity": 15,
+      "Rarity": 19,
       "PawnStats": {
         "PST_DamageResistance": 1.5
       }
@@ -723,7 +716,7 @@
       "DifficultyRating": 40,
       "MaxSpawnCount": 1,
       "MinSpawnCount": 1,
-      "Rarity": 15,
+      "Rarity": 19,
       "PawnStats": {
         "PST_DamageResistance": 1.5
       }
@@ -735,7 +728,7 @@
       "DifficultyRating": 40,
       "MaxSpawnCount": 1,
       "MinSpawnCount": 1,
-      "Rarity": 15,
+      "Rarity": 19,
       "PawnStats": {
         "PST_DamageResistance": 1.5
       }
@@ -847,14 +840,14 @@
     },
     "心跳水蛭": {
       "Base": "ED_CaveLeech",
-      "CanBeUsedForConstantPressure": false,
-      "CanBeUsedInEncounters": true,
-      "DifficultyRating": 50,
-      "MaxSpawnCount": 4,
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 100,
+      "MaxSpawnCount": 1,
       "MinSpawnCount": 1,
       "TimeDilation": 10,
       "Rarity": 20,
-      "Scale": 0.3,
+      "Scale": 0.6,
       "PawnStats": {
         "PST_DamageResistance": 4.2,
         "PST_CaveLeechSense": -10
@@ -864,13 +857,23 @@
       "Base": "ED_SpiderSpawner",
       "CanBeUsedForConstantPressure": false,
       "CanBeUsedInEncounters": true,
-      "DifficultyRating": 50,
+      "DifficultyRating": 100,
       "MaxSpawnCount": 4,
       "MinSpawnCount": 1,
       "Rarity": 20,
       "PawnStats": {
-        "PST_DamageResistance": 360
+        "PST_DamageResistance": 16
       }
+    },
+    "ED_CaveLeech": {
+      "Base": "ED_CaveLeech",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 100,
+      "MaxSpawnCount": 4,
+      "MinSpawnCount": 1,
+      "Rarity": 20,
+      "PawnStats": {}
     },
     "ED_InfectedMule": {
       "Base": "ED_Spider_Grunt",
@@ -973,7 +976,8 @@
       "火轰炸机",
       "冰轰炸机",
       "岩痘轰炸",
-      "抱抱"
+      "抱抱",
+      "心跳水蛭"
     ],
     "remove": []
   },
@@ -1027,7 +1031,8 @@
       "火轰炸机",
       "冰轰炸机",
       "岩痘轰炸",
-      "抱抱"
+      "抱抱",
+      "心跳水蛭"
     ],
     "remove": []
   },
@@ -1046,7 +1051,8 @@
       "火轰炸机",
       "冰轰炸机",
       "岩痘轰炸",
-      "抱抱"
+      "抱抱",
+      "心跳水蛭"
     ],
     "remove": []
   },
@@ -1075,7 +1081,7 @@
     "add": [
       "吐珠",
       "瘟疫胖猪",
-      "心跳水蛭",
+      "ED_CaveLeech",
       "脆皮母巢"
     ],
     "remove": []
